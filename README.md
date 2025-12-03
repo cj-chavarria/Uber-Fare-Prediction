@@ -1,15 +1,15 @@
 # Uber Fare Prediction
 
-A Data Science class project predicting Uber ride fares using machine learning regression models.
+A data science class project predicting Uber ride fares using machine learning regression models.
 
 ## Overview
 This project analyzes historical Uber ride data to build and compare multiple predictive models, selecting the best performer for fare estimation.
 
 ## Models Compared
-1. **Linear Regression** - Baseline model
-2. **Random Forest** - Best performer ✓
-3. **Linear SVR** - Support vector regression
-4. **MLP Regressor** - Neural network
+1. **Linear Regression**
+2. **Random Forest**
+3. **Linear SVR** 
+4. **MLP Regressor** -
 
 All models were tuned using GridSearchCV with 5-fold cross-validation.
 
@@ -21,4 +21,3 @@ All models were tuned using GridSearchCV with 5-fold cross-validation.
 Random Forest Regressor achieved the best performance. Key findings:
 - Geographic distance is the strongest predictor
 - Temporal features (hour, day, month) significantly impact fares
-- Ensemble methods outperformed linear models
